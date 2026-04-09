@@ -1,0 +1,1 @@
+This project is a udemy clone. I have used the YT player to load and play the you tube videos corresponding to the topic. Calculated the progress of each section using webworkers.Used Mongo db to store courses,sections and Topics in each course.
