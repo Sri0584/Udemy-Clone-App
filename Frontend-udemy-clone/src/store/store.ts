@@ -59,7 +59,6 @@ export const useStore = create<StoreState>()(
 					const currentTopicId =
 						state.courses.find((c) => c._id === course._id)?.sections[0]
 							?.topics[0]?._id || null;
-					console.log(currentVideoUrl);
 
 					return {
 						selectedCourse: course,

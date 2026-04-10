@@ -2,7 +2,6 @@ import type { Topic } from "../store/store";
 
 self.onmessage = (event: MessageEvent) => {
 	const { section, progress, courseId } = event.data;
-	console.log({ section, progress, courseId });
 
 	const totalTopics = section.topics.length;
 	const completedTopics = section.topics.filter(
