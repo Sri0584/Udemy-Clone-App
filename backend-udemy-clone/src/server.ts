@@ -13,8 +13,8 @@ app.use(
 	}),
 );
 app.use(express.json());
-import authRoutes from "./routes/authRoutes.js";
-import courseRoutes from "./routes/courseRoutes.js";
+import authRoutes from "./routes/authRoutes";
+import courseRoutes from "./routes/courseRoutes";
 // Use routes
 app.use("/api/auth", authRoutes);
 app.use("/api/courses", courseRoutes);

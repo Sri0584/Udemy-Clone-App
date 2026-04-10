@@ -1,12 +1,12 @@
-import User from "../models/User.ts";
+import User from "../models/User";
 import type { Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import {
 	setRefreshCookie,
 	signAccessToken,
 	signRefreshToken,
-} from "../utils/jwt.ts";
-import { sanitizeUser } from "../middleware/auth.ts";
+} from "../utils/jwt";
+import { sanitizeUser } from "../middleware/auth";
 
 const registerUser = async (req: Request, res: Response) => {
 	try {

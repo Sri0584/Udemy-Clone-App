@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import Course from "../models/Course.ts";
+import Course from "../models/Course";
 
 const getCourses = async (req: Request, res: Response) => {
 	try {
