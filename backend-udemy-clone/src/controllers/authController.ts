@@ -6,7 +6,7 @@ import {
 	signAccessToken,
 	signRefreshToken,
 } from "../utils/jwt";
-import { sanitizeUser } from "../middleware/auth";
+import { sanitizeUser } from "../middleware/auth.js";
 
 const registerUser = async (req: Request, res: Response) => {
 	try {
