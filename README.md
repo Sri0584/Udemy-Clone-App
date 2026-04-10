@@ -1,3 +1,4 @@
-This project is a udemy clone. I have used the YT player to load and play the you tube videos corresponding to the topic. Calculated the progress of each section using webworkers.Used Mongo db to store courses,sections and Topics in each course.
+A full-stack Udemy-style learning platform built with React, TypeScript, Node.js, Express, MongoDB, and Zustand, featuring video-based courses, progress tracking, resume playback, and authentication.
+🌐 Frontend (Netlify): (https://mydemy-clone.netlify.app/)
+⚙️ Backend (Render): [https://your-backend.onrender.com](https://udemy-clone-backend-z54q.onrender.com/api/courses)
 
-Deployed the app on https://mydemy-clone.netlify.app/
