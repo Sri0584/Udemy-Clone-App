@@ -1,5 +1,5 @@
 // seed.ts
-import Course from "../models/Course"; // your existing model
+import Course from "../models/Course.js"; // your existing model
 
 const courses = [
 	{
